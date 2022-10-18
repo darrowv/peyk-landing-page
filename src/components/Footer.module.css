@@ -1,0 +1,22 @@
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footTitle {
+  font-size: 30px;
+  font-family: "Caveat", sans-serif;
+  margin: 50px 0;
+}
+
+.lightText {
+  opacity: 0.5;
+  width: 70%;
+  margin: 30px auto;
+}
+
+.email {
+  color: rgb(179, 137, 86);
+  display: block;
+  margin: 30px 0;
+}

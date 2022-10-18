@@ -1,0 +1,20 @@
+[
+  {
+    "id": "0",
+    "title": "Heyecan uyandırın",
+    "description": "İşletmenizin sunduklarıyla ilgili heyecan verici neler var? Bunları burada dile getirebilirsiniz.",
+    "img": "https://img1.wsimg.com/isteam/stock/11925/:/rs=w:730,h:549,cg:true,m/cr=w:730,h:549"
+  },
+  {
+    "id": "1",
+    "title": "İlgileri üzerinize toplayın",
+    "description": "Buraya işletmenizle ilgili ilgi çekici bilgiler ekleyin.",
+    "img": "https://img1.wsimg.com/isteam/stock/6214/:/rs=w:730,h:549,cg:true,m/cr=w:730,h:549"
+  },
+  {
+    "id": "2",
+    "title": "Ürün ve hizmetlerinizi öne çıkarın",
+    "description": "Sergilemek istediğiniz bir ürünü veya hizmeti öne çıkarın.",
+    "img": "https://img1.wsimg.com/isteam/stock/5223/:/rs=w:730,h:549,cg:true,m/cr=w:730,h:549"
+  }
+]
