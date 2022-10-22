@@ -24,25 +24,23 @@ const EmailForm = () => {
             className={styles.nameInput}
             id="form-ask-us-name"
             name="ask-us-name"
-            required=""
+            required
             type="text"
-            value=""
             placeholder="İsim*"
           />
           <input
             className={styles.emailInput}
             id="form-ask-us-email"
             name="ask-us-email"
-            required=""
+            required
             type="email"
-            value=""
             placeholder="E-posta*"
           />
           <textarea
             className={styles.textInput}
             id="form-ask-us-text"
             name="ask-us-text"
-            required=""
+            required
             placeholder="Size nasıl yardımcı olabiliriz?*"
           ></textarea>
           <input className={styles.submitButton} value="Gönder" type="submit" />

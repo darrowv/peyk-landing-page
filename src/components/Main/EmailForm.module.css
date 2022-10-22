@@ -31,6 +31,7 @@
   position: fixed;
   bottom: 100px;
   right: 20px;
+  z-index: 10;
   width: 330px;
   height: 550px;
   border-radius: 5px;
@@ -55,6 +56,7 @@
   position: absolute;
   top: 60px;
   left: 20px;
+  z-index: 10;
   background-color: #fbefe3;
   bottom: 10px;
   width: 290px;
