@@ -1,15 +1,16 @@
 import React from "react";
-import styles from "./Main.module.css";
 import AboutUs from "./AboutUs";
+import EmailForm from "./EmailForm";
 import Products from "./Products";
 import Welcome from "./Welcome";
 
-const Main = () => {
+const Main = () => {  
   return (
     <main>
       <Welcome />
       <AboutUs />
       <Products />
+      <EmailForm />
     </main>
   );
 };

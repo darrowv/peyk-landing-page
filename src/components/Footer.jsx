@@ -5,15 +5,60 @@ const Footer = () => {
   const [date, setDate] = useState(false);
 
   const partialDate = (
-    <div>
-      Bugün açık 09:00 – 17:00{" "}
-      <span onClick={() => setDate(true)} className="material-symbols-outlined">expand_more</span>
+    <div className={styles.partialDate}>
+      Bugün açık{" "}
+      <span style={{ opacity: 0.6, marginLeft: "5px" }}>09:00 – 17:00</span>
+      <span
+        onClick={() => setDate(true)}
+        className={`material-symbols-outlined ${styles.more}`}
+      >
+        expand_more
+      </span>
     </div>
   );
 
   const fullDate = (
-    <div>
-      <span onClick={() => setDate(false)} className="material-symbols-outlined">expand_less</span>
+    <div className={styles.fullDate}>
+      <table className={styles.dateTable}>
+        <tbody>
+          <tr>
+            <td>Pzt</td>
+            <td>09:00 – 17:00</td>
+            <td className={styles.lessCell}>
+              <span
+                onClick={() => setDate(false)}
+                className={`material-symbols-outlined ${styles.less}`}
+              >
+                expand_less
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>Sal</td>
+            <td>09:00 – 17:00</td>
+          </tr>
+          <tr>
+            <td>Çar</td>
+            <td>09:00 – 17:00</td>
+          </tr>
+          <tr>
+            <td>Per</td>
+            <td>09:00 – 17:00</td>
+          </tr>
+          <tr>
+            <td>Cum</td>
+            <td>09:00 – 17:00</td>
+          </tr>
+          <tr>
+            <td>Cmt</td>
+            <td>Kapalı</td>
+          </tr>
+          <tr>
+            <td>Paz</td>
+            <td>Kapalı</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 
