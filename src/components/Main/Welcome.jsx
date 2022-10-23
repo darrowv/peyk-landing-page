@@ -6,7 +6,7 @@ const Welcome = () => {
     <div>
       <img
         className={styles.welcomeImg}
-        src="https://img1.wsimg.com/isteam/stock/yrE3VwP/:/rs=w:2560"
+        src="https://images2.imgbox.com/7e/ff/mn6tvmEZ_o.jpg"
         alt="containers"
       />
       <div className={styles.subContainer}>
