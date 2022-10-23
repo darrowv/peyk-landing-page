@@ -4,6 +4,11 @@ import styles from "./EmailForm.module.css";
 const EmailForm = () => {
   const [showFormField, setShowFormField] = useState(false);
 
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+
+  // };
+
   const formField = (
     <>
       <div className={styles.formContainer}>
@@ -19,28 +24,33 @@ const EmailForm = () => {
 
         {/* Форма для отправки на почту */}
 
-        <form id="form-ask-us" className={styles.emailForm}>
+        <form
+          action="https://formsubmit.co/nasirmaga45@gmail.com"
+          method="POST"
+          // onSubmit={handleSubmit}
+          className={styles.emailForm}
+        >
+          <input type="hidden" name="_template" value="table" />
           <input
             className={styles.nameInput}
-            id="form-ask-us-name"
-            name="ask-us-name"
+            name="name"
             required
+            maxLength={45}
             type="text"
             placeholder="İsim*"
           />
           <input
             className={styles.emailInput}
-            id="form-ask-us-email"
-            name="ask-us-email"
+            name="email"
             required
             type="email"
             placeholder="E-posta*"
           />
           <textarea
             className={styles.textInput}
-            id="form-ask-us-text"
-            name="ask-us-text"
+            name="message"
             required
+            maxLength={400}
             placeholder="Size nasıl yardımcı olabiliriz?*"
           ></textarea>
           <input className={styles.submitButton} value="Gönder" type="submit" />
