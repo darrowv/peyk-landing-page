@@ -4,11 +4,6 @@ import styles from "./EmailForm.module.css";
 const EmailForm = () => {
   const [showFormField, setShowFormField] = useState(false);
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-
-  // };
-
   const formField = (
     <>
       <div className={styles.formContainer}>
@@ -27,7 +22,6 @@ const EmailForm = () => {
         <form
           action="https://formsubmit.co/nasirmaga45@gmail.com"
           method="POST"
-          // onSubmit={handleSubmit}
           className={styles.emailForm}
         >
           <input type="hidden" name="_template" value="table" />

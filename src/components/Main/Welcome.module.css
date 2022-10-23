@@ -1,7 +1,7 @@
 .welcomeImg {
   width: 100%;
   filter: brightness(0.7);
-  transition: .3s;
+  transition: 0.3s;
   cursor: pointer;
 }
 

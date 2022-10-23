@@ -18,7 +18,7 @@
   width: 30%;
   text-align: left;
   padding: 10px;
-  transition: .3s;
+  transition: 0.3s;
   box-shadow: 5px 5px 13px rgb(160, 160, 160);
 }
 
@@ -31,7 +31,6 @@
   width: 100%;
   margin-bottom: 15px;
 }
-
 
 .prodTitle {
   font-size: 20px;

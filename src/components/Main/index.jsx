@@ -4,7 +4,7 @@ import EmailForm from "./EmailForm";
 import Products from "./Products";
 import Welcome from "./Welcome";
 
-const Main = () => {  
+const Main = () => {
   return (
     <main>
       <Welcome />
