@@ -8,3 +8,11 @@ header {
   margin-bottom: 30px;
   letter-spacing: 10px;
 }
+
+/* Адаптив */
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 30px;
+  }
+}

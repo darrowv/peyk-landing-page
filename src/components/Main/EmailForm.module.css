@@ -11,15 +11,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 20;
 }
 
 .emailButton {
   background-color: #f0c9a3;
+  box-shadow: 1px 1px 10px black;
 }
 
 .closeButton {
   background-color: #555555;
   color: #fff;
+  box-shadow: 1px 1px 10px black;
 }
 
 .emailButtonIcon,
@@ -45,6 +48,14 @@
   height: 80px;
   background-color: #f0c9a3;
   position: relative;
+}
+
+.closeForMobile {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+  visibility: hidden;
 }
 
 .formHeader p {
@@ -126,4 +137,61 @@
 .submitButton:hover {
   color: black;
   background-color: #f0c9a3;
+}
+
+/* Адаптив */
+
+@media (max-width: 480px) {
+  .formContainer {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+  }
+  .formText {
+    width: 90%;
+    top: 80px;
+  }
+  .formText p {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .closeForMobile {
+    visibility: visible;
+    padding: 30px;
+    align-items: center;
+  }
+  .closeForMobileIcon {
+    font-size: 30px;
+  }
+  .formHeader {
+    height: 100px;
+  }
+  .formHeader p {
+    padding: 30px;
+    font-size: 27px;
+  }
+
+  .emailForm {
+    height: 80%;
+  }
+
+  .nameInput,
+  .emailInput {
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .textInput {
+    padding: 15px;
+    font-size: 20px;
+    height: 150px;
+  }
+
+  .submitButton {
+    width: 55%;
+    height: 70px;
+    font-size: 35px;
+  }
 }

@@ -8,3 +8,11 @@
 body {
   margin: 30px 50px;
 }
+
+/* Адаптив */
+
+@media (max-width: 500px) {
+  body {
+    margin: 15px 25px;
+  }
+}

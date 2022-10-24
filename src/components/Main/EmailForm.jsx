@@ -9,6 +9,13 @@ const EmailForm = () => {
       <div className={styles.formContainer}>
         <div className={styles.formHeader}>
           <p>PEYK</p>
+          <div onClick={() => setShowFormField(false)} className={styles.closeForMobile}>
+            <span
+              className={`material-symbols-outlined ${styles.closeForMobileIcon}`}
+            >
+              close
+            </span>
+          </div>
         </div>
         <div className={styles.formText}>
           <p>

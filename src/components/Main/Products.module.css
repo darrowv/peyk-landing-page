@@ -44,3 +44,37 @@
   font-size: 15px;
   color: rgb(90, 90, 90);
 }
+
+/* Адаптив */
+
+@media (max-width: 800px) {
+  .prodImg {
+    height: 150px;
+  }
+  .prodTitle {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 650px) {
+  .productCards {
+    flex-direction: column;
+  }
+  .card {
+    width: 95%;
+    align-self: center;
+    margin-bottom: 20px;
+  }
+  .prodImg {
+    height: 250px;
+  }
+  .prodTitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .prodImg {
+    height: 170px;
+  }
+}

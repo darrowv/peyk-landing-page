@@ -44,3 +44,38 @@
   font-size: 15px;
   color: rgb(90, 90, 90);
 }
+
+
+/* Адаптив */
+
+@media (max-width: 800px) {
+  .cardImg {
+    height: 150px;
+  }
+  .cardTitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 650px) {
+  .aboutCards {
+    flex-direction: column;
+  }
+  .card {
+    width: 99%;
+    align-self: center;
+    margin-bottom: 20px;
+  }
+  .cardImg {
+    height: 300px;
+  }
+  .cardTitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .cardImg {
+    height: 170px;
+  }
+}
